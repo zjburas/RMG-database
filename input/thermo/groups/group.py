@@ -46576,6 +46576,265 @@ Fitted to CBS-QB3 calculations for OC=Cc1ccccc1
 """,
 )
 
+entry(
+    index = 2071,
+    label = "Cb-Cl",
+    group = 
+"""
+1 * Cb u0 {2,S}
+2   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.4,8.4,9.2,9.7,10.2,10.4,10.4],'cal/(mol*K)'),
+        H298 = (-3.8,'kcal/mol'),
+        S298 = (18.9,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Cb-Cl BENSON""",
+    longDesc = 
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson
+""",
+)
+
+entry(
+    index = 2072,
+    label = "Cds-CdClH",
+    group = 
+"""
+1 * Cd u0 {2,D} {3,S} {4,S}
+2   C  u0 {1,D}
+3   Cl1s u0 {1,S}
+4   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([7.9, 9.2, 10.3, 11.2, 12.3, 13.1, 13.1],'cal/(mol*K)'),
+        H298 = (-1.2,'kcal/mol'),
+        S298 = (35.4,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Cd-(Cl)(H) BENSON""",
+    longDesc = 
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson
+""",
+)
+
+entry(
+    index = 2073,
+    label = "Cds-CdClCl",
+    group = 
+"""
+1 * Cd u0 {2,D} {3,S} {4,S}
+2   C  u0 {1,D}
+3   Cl1s u0 {1,S}
+4   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([11.4, 12.5, 13.3, 13.9, 14.6, 15.0,15.0],'cal/(mol*K)'),
+        H298 = (-1.8,'kcal/mol'),
+        S298 = (42.1,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Cd-(Cl)2 BENSON""",
+    longDesc = 
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson
+""",
+)
+
+entry(
+    index = 2074,
+    label = "Cs-ClClHH",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cl1s u0 {1,S}
+3   Cl1s u0 {1,S}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.2, 14.3, 16.0, 17.4, 19.4, 20.8, 22.9],'cal/(mol*K)'),
+        H298 = (-22.8,'kcal/mol'),
+        S298 = (64.6,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CH2Cl2 BENSON""",
+    longDesc = 
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson
+""",
+)
+
+entry(
+    index = 2075,
+    label = "Cs-ClClClH",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cl1s u0 {1,S}
+3   Cl1s u0 {1,S}
+4   Cl1s u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([15.7, 17.9, 19.4, 20.5, 21.9, 22.9, 24.2],'cal/(mol*K)'),
+        H298 = (-24.6,'kcal/mol'),
+        S298 = (70.7,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CHCl3 BENSON""",
+    longDesc = 
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson
+""",
+)
+
+entry(
+    index = 2076,
+    label = "Cs-ClClClCl",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   Cl1s u0 {1,S}
+3   Cl1s u0 {1,S}
+4   Cl1s u0 {1,S}
+5   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([19.9,21.8,23.0,23.8,24.6,25.0,25.5],'cal/(mol*K)'),
+        H298 = (-22.9,'kcal/mol'),
+        S298 = (74.2,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""CCl4 BENSON""",
+    longDesc = 
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson
+""",
+)
+
+entry(
+    index = 2077,
+    label = "Cs-CClHH",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   C  u0 {1,S}
+3   Cl1s u0 {1,S}
+4   H  u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([8.9, 10.7, 12.3, 13.4, 15.3, 16.7, 16.7],'cal/(mol*K)'),
+        H298 = (-16.5,'kcal/mol'),
+        S298 = (37.8,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""C-(Cl)(H)2(C) BENSON""",
+    longDesc = 
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson
+""",
+)
+
+entry(
+    index = 2078,
+    label = "Cs-CClClH",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   C  u0 {1,S}
+3   Cl1s u0 {1,S}
+4   Cl1s u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([12.1, 14.0, 15.4, 16.5, 17.9, 18.7,18.7],'cal/(mol*K)'),
+        H298 = (-18.9,'kcal/mol'),
+        S298 = (43.7,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""C-(Cl)2(H)(C) BENSON""",
+    longDesc = 
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson
+""",
+)
+
+entry(
+    index = 2079,
+    label = "Cs-CClClCl",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   C  u0 {1,S}
+3   Cl1s u0 {1,S}
+4   Cl1s u0 {1,S}
+5   Cl1s u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([16.3, 18.0, 19.1, 19.8, 20.6, 21.0,21.0],'cal/(mol*K)'),
+        H298 = (-20.7,'kcal/mol'),
+        S298 = (50.4,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""C-(Cl)3(C) BENSON""",
+    longDesc = 
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson
+""",
+)
+
+entry(
+    index = 2080,
+    label = "Cs-CCClH",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   C  u0 {1,S}
+3   C  u0 {1,S}
+4   Cl1s u0 {1,S}
+5   H  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.0, 9.9, 10.5, 11.2,11.2,11.2,11.2],'cal/(mol*K)'),
+        H298 = (-14.8,'kcal/mol'),
+        S298 = (17.6,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""C-(Cl)(H)(C)2 BENSON""",
+    longDesc = 
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson
+""",
+)
+
+entry(
+    index = 2081,
+    label = "Cs-CCCCl",
+    group = 
+"""
+1 * Cs u0 {2,S} {3,S} {4,S} {5,S}
+2   C  u0 {1,S}
+3   C  u0 {1,S}
+4   Cl1s u0 {1,S}
+5   C  u0 {1,S}
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([9.3, 10.5, 11.0, 11.3, 11.3, 11.3, 11.3],'cal/(mol*K)'),
+        H298 = (-12.8,'kcal/mol'),
+        S298 = (5.4,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""C-(Cl)(C)3 BENSON""",
+    longDesc = 
+u"""
+Thermochemical Kinetics 2nd Ed., by Sidney Benson
+""",
+)
+
 tree(
 """
 L1: R
@@ -46618,6 +46877,7 @@ L1: R
                     L6: Cb-(CtN3t)
                 L5: Cb-Cb
                 L5: Cb-C=S
+	    L4: Cb-Cl
         L3: Ct
             L4: Ct-CtN3s
             L4: Ct-N3tN3s
@@ -47162,6 +47422,8 @@ L1: R
             L4: CS-OsH
             L4: CS-CsOs
             L4: CS-OsOs
+	    L4: Cds-CdClH
+	    L4: Cds-CdClCl
         L3: Cs
             L4: Cs-NHHH
                 L5: Cs-N3sHHH
@@ -48486,6 +48748,14 @@ L1: R
                 L5: Cs-CtSsHH
                 L5: Cs-CbSsHH
                 L5: Cs-C=SSsHH
+	    L4: Cs-ClClHH
+	    L4: Cs-ClClClH
+	    L4: Cs-ClClClCl
+	    L4: Cs-CClHH
+	    L4: Cs-CClClH
+	    L4: Cs-CClClCl
+	    L4: Cs-CCClH
+	    L4: Cs-CCCCl
     L2: O
         L3: Oa(S)
         L3: O2d
