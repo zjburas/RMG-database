@@ -46658,7 +46658,7 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([12.2, 14.3, 16.0, 17.4, 19.4, 20.8, 22.9],'cal/(mol*K)'),
         H298 = (-22.8,'kcal/mol'),
-        S298 = (64.6,'cal/(mol*K)'),
+        S298 = (65.8,'cal/(mol*K)'),
     ),
     shortDesc = u"""CH2Cl2 BENSON""",
     longDesc = 
@@ -46682,7 +46682,7 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([15.7, 17.9, 19.4, 20.5, 21.9, 22.9, 24.2],'cal/(mol*K)'),
         H298 = (-24.6,'kcal/mol'),
-        S298 = (70.7,'cal/(mol*K)'),
+        S298 = (72.9,'cal/(mol*K)'),
     ),
     shortDesc = u"""CHCl3 BENSON""",
     longDesc = 
@@ -46706,7 +46706,7 @@ entry(
         Tdata = ([300,400,500,600,800,1000,1500],'K'),
         Cpdata = ([19.9,21.8,23.0,23.8,24.6,25.0,25.5],'cal/(mol*K)'),
         H298 = (-22.9,'kcal/mol'),
-        S298 = (74.2,'cal/(mol*K)'),
+        S298 = (79.1,'cal/(mol*K)'),
     ),
     shortDesc = u"""CCl4 BENSON""",
     longDesc = 
@@ -46834,6 +46834,28 @@ u"""
 Thermochemical Kinetics 2nd Ed., by Sidney Benson
 """,
 )
+
+entry(
+    index = 2082,
+    label = "Cl1s",
+    group = 
+"""
+1 *  Cl1s u0 
+""",
+    thermo = ThermoData(
+        Tdata = ([300,400,500,600,800,1000,1500],'K'),
+        Cpdata = ([0.0,0.0,0.0,0.0,0.0,0.0,0.0],'cal/(mol*K)'),
+        H298 = (0.0,'kcal/mol'),
+        S298 = (0.0,'cal/(mol*K)'),
+    ),
+    shortDesc = u"""Dummy Chlorine group""",
+    longDesc = 
+u"""
+Dummy group for singly-bonded chlorine. Benson groups for chloroalkanes already account for Cl in the Carbon-centered groups.
+""",
+)
+
+
 
 tree(
 """
@@ -49010,6 +49032,7 @@ L1: R
             L4: N5dc-OdOsOs
             L4: N5dc-OdOsN3s
         L3: N5ddc
+    L2: Cl1s
 """
 )
 
