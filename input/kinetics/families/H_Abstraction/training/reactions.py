@@ -2913,3 +2913,728 @@ K. Siddique, M. Altarawneh, J. Gore, P.R. Westmoreland, B.Z. Dlugogorski, J. Che
 doi: 10.1021/acs.jpca.6b12890
 """,
 )
+
+
+entry(
+    index = 1233,
+    label = "Cl + CH4b <=> ClH + CH3_p23",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.36534e-19, 'cm^3/(molecule*s)'),
+        n = 2.6,
+        Ea = (3201.07, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + CH4 <=> HCl + CH3
+""",
+)
+
+entry(
+    index = 1234,
+    label = "Cl + C2H6 <=> ClH + C2H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (7.23e-13, 'cm^3/(molecule*s)'),
+        n = 0.7,
+        Ea = (-972.793, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + C2H6 <=> HCl + C2H5
+""",
+)
+
+entry(
+    index = 1235,
+    label = "Cl + C3H8b <=> ClH + C3H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.26e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (748.302, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + C3H8 <=> HCl + nC3H7
+""",
+)
+
+entry(
+    index = 1236,
+    label = "Cl + C3H8 <=> ClH + C3H7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.02e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (-623.585, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + C3H8 <=> HCl + iC3H7
+""",
+)
+
+entry(
+    index = 1237,
+    label = "Cl + C4H10 <=> ClH + C4H9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (9.02e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (997.737, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + nC4H10 <=> HCl + C4H9-1
+""",
+)
+
+entry(
+    index = 1238,
+    label = "Cl + C4H10b <=> ClH + C4H9-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.21e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (-457.296, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + nC4H10 <=> HCl + C4H9-2
+""",
+)
+
+entry(
+    index = 1239,
+    label = "Cl + CH2O <=> ClH + HCO_r3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.1e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (282.692, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + HCHO <=> HCl + HCO
+""",
+)
+
+entry(
+    index = 1240,
+    label = "Cl + C2H4O <=> ClH + C2H3O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(8e-11, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + CH3CHO <=> HCl + CH3CO
+""",
+)
+
+entry(
+    index = 1241,
+    label = "Cl + C3H6O-3 <=> ClH + C3H5O-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.5e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (4905.54, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + CH3COCH3 <=> HCl + CH3COCH2
+""",
+)
+
+entry(
+    index = 1242,
+    label = "Cl + CH4O <=> ClH + CH3O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (7.1e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (623.585, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + CH3OH <=> HCl + CH2OH
+""",
+)
+
+entry(
+    index = 1243,
+    label = "Cl + CH4O-2 <=> ClH + CH3O-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (9.65431e-19, 'cm^3/(molecule*s)'),
+        n = 2.5,
+        Ea = (30470, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + CH3OH <=> HCl + CH3O
+""",
+)
+
+entry(
+    index = 1244,
+    label = "Cl + C2H6O <=> ClH + C2H5O",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.44e-10, 'cm^3/(molecule*s)'),
+        n = -0.089,
+        Ea = (-374.151, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + C2H5OH <=> HCl + CH3CHOH
+""",
+)
+
+entry(
+    index = 1245,
+    label = "Cl + C2H6O-2 <=> ClH + C2H5O-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.13e-13, 'cm^3/(molecule*s)'),
+        n = 0.7494,
+        Ea = (-374.151, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + C2H5OH <=> HCl + CH2CH2OH
+""",
+)
+
+entry(
+    index = 1246,
+    label = "Cl + H2O <=> ClH + OH",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.79e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (72086.5, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + H2O <=> HCl + OH
+""",
+)
+
+entry(
+    index = 1247,
+    label = "Cl + H2O2 <=> ClH + HO2_r3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.1e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (8148.18, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + H2O2 <=> HCl + HO2
+""",
+)
+
+entry(
+    index = 1248,
+    label = "Cl + H2 <=> ClH + H",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.59e-16, 'cm^3/(molecule*s)'),
+        n = 1.588,
+        Ea = (13984.9, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + H2 <=> HCl + H
+""",
+)
+
+entry(
+    index = 1249,
+    label = "Cl + C5H10O2 <=> ClH + C5H9O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.24e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (2500.16, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + C4H9OCHO <=> HCl + C4H8OCHO-1
+""",
+)
+
+entry(
+    index = 1250,
+    label = "Cl + C5H10O2-2 <=> ClH + C5H9O2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.32e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (1249.67, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + C4H9OCHO <=> HCl + C4H8OCHO-2
+""",
+)
+
+entry(
+    index = 1251,
+    label = "Cl + C5H10O2-3 <=> ClH + C5H9O2-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.05e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (1249.67, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + C4H9OCHO <=> HCl + C4H8OCHO-3
+""",
+)
+
+entry(
+    index = 1252,
+    label = "Cl + C5H12-2 <=> ClH + C5H11",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.79e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (3849.6, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + neoC5H12 <=> HCl + neoC5H11
+""",
+)
+
+entry(
+    index = 1253,
+    label = "Cl + C3H4-1 <=> ClH + C3H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.40759e-16, 'cm^3/(molecule*s)'),
+        n = 2,
+        Ea = (4400.02, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + aC3H4 <=> HCl + C3H3
+""",
+)
+
+entry(
+    index = 1254,
+    label = "Cl + C5H10 <=> ClH + C5H9",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.87e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (2419.51, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + cC5H10 <=> HCl + cC5H9
+""",
+)
+
+entry(
+    index = 1255,
+    label = "Cl + C4H8-8 <=> ClH + C4H7-6",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.25e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (3449.67, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + cC4H8 <=> HCl + cC4H7
+""",
+)
+
+entry(
+    index = 1256,
+    label = "Cl + C4H8O2 <=> ClH + C4H7O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.27e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (300.152, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + Dioxane14 <=> HCl + Dioxanyl14
+""",
+)
+
+entry(
+    index = 1257,
+    label = "Cl + C6H12O2 <=> ClH + C6H11O2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.32e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (2930.02, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-1
+""",
+)
+
+entry(
+    index = 1258,
+    label = "Cl + C6H12O2-2 <=> ClH + C6H11O2-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (3.32e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (1249.67, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-2
+""",
+)
+
+entry(
+    index = 1259,
+    label = "Cl + C6H12O2-3 <=> ClH + C6H11O2-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.62e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (2089.43, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-3
+""",
+)
+
+entry(
+    index = 1260,
+    label = "Cl + C6H12O2-4 <=> ClH + C6H11O2-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.66e-12, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (3759.8, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-4
+""",
+)
+
+entry(
+    index = 1261,
+    label = "Cl + C2H6O-3 <=> ClH + C2H5O-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(1.76e-10, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + CH3OCH3 <=> HCl + CH3OCH2
+""",
+)
+
+entry(
+    index = 1262,
+    label = "Cl + C3H6 <=> ClH + C3H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.9e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (748.302, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + C3H6 <=> HCl + aC3H5
+""",
+)
+
+entry(
+    index = 1263,
+    label = "Cl + C6H12 <=> ClH + C6H11",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(A=(2.41e-10, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + cC6H12 <=> HCl + cC6H11
+""",
+)
+
+entry(
+    index = 1264,
+    label = "Cl + C7H8 <=> ClH + C7H7",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.59e-12, 'cm^3/(molecule*s)'),
+        n = 1.073,
+        Ea = (6406.3, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + C6H5CH3 <=> HCl + C6H5CH2
+""",
+)
+
+entry(
+    index = 1265,
+    label = "Cl + C7H8-2 <=> ClH + C7H7-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.88e-45, 'cm^3/(molecule*s)'),
+        n = 10.876,
+        Ea = (-22746.7, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + C6H5CH3 <=> HCl + o-C6H4CH3
+""",
+)
+
+entry(
+    index = 1266,
+    label = "Cl + C7H8-3 <=> ClH + C7H7-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (4.98e-43, 'cm^3/(molecule*s)'),
+        n = 10.407,
+        Ea = (-20733.8, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + C6H5CH3 <=> HCl + m-C6H4CH3
+""",
+)
+
+entry(
+    index = 1267,
+    label = "Cl + C7H8-4 <=> ClH + C7H7-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.75e-27, 'cm^3/(molecule*s)'),
+        n = 5.626,
+        Ea = (-1163.19, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + C6H5CH3 <=> HCl + p-C6H4CH3
+""",
+)
+
+entry(
+    index = 1268,
+    label = "Cl + iC4H10 <=> ClH + C4H9-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.94e-10, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (3429.72, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + iC4H10 <=> HCl + iC4H9
+""",
+)
+
+entry(
+    index = 1269,
+    label = "Cl + iC4H10b <=> ClH + C4H9-4",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (2.82e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (79.8189, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + iC4H10 <=> HCl + tC4H9
+""",
+)
+
+entry(
+    index = 1270,
+    label = "Cl + C3H6-4 <=> ClH + C3H5-3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (8.97e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (17289.9, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + cC3H6 <=> HCl + cC3H5
+""",
+)
+
+entry(
+    index = 1271,
+    label = "Cl + C3H4 <=> ClH + C3H3-2",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (1.41e-17, 'cm^3/(molecule*s)'),
+        n = 2,
+        Ea = (4159.73, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + pC3H4 <=> HCl + C3H3
+""",
+)
+
+entry(
+    index = 1272,
+    label = "Cl + C2H4 <=> ClH + C2H3",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.19e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (28269.2, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + Ethene <=> HCl + C2H3
+""",
+)
+
+entry(
+    index = 1273,
+    label = "Cl + C6H6 <=> ClH + C6H5",
+    degeneracy = 1.0,
+    kinetics = Arrhenius(
+        A = (6.1e-11, 'cm^3/(molecule*s)'),
+        n = 0,
+        Ea = (31600, 'J/mol'),
+        T0 = (1, 'K'),
+    ),
+    rank = 3,
+    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    longDesc = 
+u"""
+Taken from entry: Cl + C6H6 <=> HCl + C6H5
+""",
+)
+
