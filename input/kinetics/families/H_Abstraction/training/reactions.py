@@ -2926,10 +2926,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + CH4 <=> HCl + CH3""",
     longDesc = 
 u"""
-Taken from entry: Cl + CH4 <=> HCl + CH3
+Kinetics of Cl atom reactions with methane, ethane, and propane from 292 to 800 K 
+J. S. Pilgrim, A. McIlroy, and C. A. Taatjes, J. Phys. Chem. A 101, 1873 (1997) 
+PLP-LIF Measurement from 292-800 K
 """,
 )
 
@@ -2944,10 +2946,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + C2H6 <=> HCl + C2H5""",
     longDesc = 
 u"""
-Taken from entry: Cl + C2H6 <=> HCl + C2H5
+Kinetics of Reactions of Cl Atoms with Ethane, Chloroethane, and 1,1-Dichloroethane 
+Bryukov, M. G., Slagle, I. R., and Knyazev, V. D.: J. Phys. Chem. A., 107, 6565, 2003. 
+Fit to multiple experimental measurements from 200-1000 K, including PLP experiments of 1997 Pilgrim
 """,
 )
 
@@ -2962,10 +2966,11 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + C3H8 <=> HCl + nC3H7""",
     longDesc = 
 u"""
-Taken from entry: Cl + C3H8 <=> HCl + nC3H7
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 200-700 K
 """,
 )
 
@@ -2980,10 +2985,11 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + C3H8 <=> HCl + iC3H7""",
     longDesc = 
 u"""
-Taken from entry: Cl + C3H8 <=> HCl + iC3H7
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 200-700 K
 """,
 )
 
@@ -2998,10 +3004,11 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + nC4H10 <=> HCl + C4H9-1""",
     longDesc = 
 u"""
-Taken from entry: Cl + nC4H10 <=> HCl + C4H9-1
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 290-600 K
 """,
 )
 
@@ -3016,10 +3023,11 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + nC4H10 <=> HCl + C4H9-2""",
     longDesc = 
 u"""
-Taken from entry: Cl + nC4H10 <=> HCl + C4H9-2
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 290-600 K
 """,
 )
 
@@ -3034,10 +3042,11 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + HCHO <=> HCl + HCO""",
     longDesc = 
 u"""
-Taken from entry: Cl + HCHO <=> HCl + HCO
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 200-500 K 
 """,
 )
 
@@ -3047,10 +3056,11 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(8e-11, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + CH3CHO <=> HCl + CH3CO""",
     longDesc = 
 u"""
-Taken from entry: Cl + CH3CHO <=> HCl + CH3CO
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 210-340 K
 """,
 )
 
@@ -3065,10 +3075,11 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + CH3COCH3 <=> HCl + CH3COCH2""",
     longDesc = 
 u"""
-Taken from entry: Cl + CH3COCH3 <=> HCl + CH3COCH2
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 215-440 K 
 """,
 )
 
@@ -3083,10 +3094,11 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + CH3OH <=> HCl + CH2OH""",
     longDesc = 
 u"""
-Taken from entry: Cl + CH3OH <=> HCl + CH2OH
+IUPAC recommendation: http://iupac.pole-ether.fr 
+from 200-500 K
 """,
 )
 
@@ -3101,10 +3113,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + CH3OH <=> HCl + CH3O""",
     longDesc = 
 u"""
-Taken from entry: Cl + CH3OH <=> HCl + CH3O
+Theoretical study of the kinetics of the hydrogen abstraction from methanol. 2. Reaction of methanol with chlorine and bromine atoms 
+Jodkowski, J.T.; Rayez, M-T.; Rayez, J-C.; Berces, T.; Dobe, S., JPCA, 102, 9230-9243, 1998 
+300-1000 K, Theoretical Predictions
 """,
 )
 
@@ -3119,10 +3133,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + C2H5OH <=> HCl + CH3CHOH""",
     longDesc = 
 u"""
-Taken from entry: Cl + C2H5OH <=> HCl + CH3CHOH
+Absolute and Site-Specific Abstraction Rate Coefficients for Reactions of Cl with CH3CH2 OH, CH3CD2OH, and CD3CH2OH Between 295 and 600 K 
+Taatjes, C. A., Christensen, L. K., Hurley M. D. and Wallington, T. J.: J. Phys. Chem. A, 103, 9805, 1999. 
+LP-IR experiments from 295-600 K
 """,
 )
 
@@ -3137,10 +3153,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + C2H5OH <=> HCl + CH2CH2OH""",
     longDesc = 
 u"""
-Taken from entry: Cl + C2H5OH <=> HCl + CH2CH2OH
+Absolute and Site-Specific Abstraction Rate Coefficients for Reactions of Cl with CH3CH2 OH, CH3CD2OH, and CD3CH2OH Between 295 and 600 K 
+Taatjes, C. A., Christensen, L. K., Hurley M. D. and Wallington, T. J.: J. Phys. Chem. A, 103, 9805, 1999. 
+LP-IR experiments from 295-600 K
 """,
 )
 
@@ -3155,10 +3173,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + H2O <=> HCl + OH""",
     longDesc = 
 u"""
-Taken from entry: Cl + H2O <=> HCl + OH
+Evaluated kinetic data for high temperature reactions. Volume 4 Homogeneous gas phase reactions of halogen- and cyanide- containing species 
+Baulch, D.L.; Duxbury, J.; Grant, S.J.; Montague, D.C., J. Phys. Chem. Ref. Data, 10, 1981. 
+210-500 K
 """,
 )
 
@@ -3173,10 +3193,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + H2O2 <=> HCl + HO2""",
     longDesc = 
 u"""
-Taken from entry: Cl + H2O2 <=> HCl + HO2
+Evaluated kinetic and photochemical data for atmospheric chemistry: Volume III - gas phase reactions of inorganic halogens 
+Atkinson, R.;Baulch, D.L.;Cox, R.A.;Crowley, J.N.;Hampson, R.F.;Hynes, R.G.;Jenkin, M.E.;Rossi, M.J.;Troe, J., Atmos. Chem. Phys., 7, 981-1191, 2007 
+260-430 K
 """,
 )
 
@@ -3191,10 +3213,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + H2 <=> HCl + H""",
     longDesc = 
 u"""
-Taken from entry: Cl + H2 <=> HCl + H
+Thermal rate constants for the Cl+H2 and Cl+D2 reactions between 296 and 3000 K 
+Kumaran, S.S.; Lim, K.P.; Michael, J.V., J. Chem. Phys., 101, 9487 - 9498, 1994 
+200-2950 K, from fit to experimental data 
 """,
 )
 
@@ -3209,10 +3233,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + C4H9OCHO <=> HCl + C4H8OCHO-1""",
     longDesc = 
 u"""
-Taken from entry: Cl + C4H9OCHO <=> HCl + C4H8OCHO-1
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+212-423 K, experimental measurement
 """,
 )
 
@@ -3227,10 +3253,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + C4H9OCHO <=> HCl + C4H8OCHO-2""",
     longDesc = 
 u"""
-Taken from entry: Cl + C4H9OCHO <=> HCl + C4H8OCHO-2
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+212-423 K, experimental measurement
 """,
 )
 
@@ -3245,10 +3273,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + C4H9OCHO <=> HCl + C4H8OCHO-3""",
     longDesc = 
 u"""
-Taken from entry: Cl + C4H9OCHO <=> HCl + C4H8OCHO-3
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+212-423 K, experimental measurement
 """,
 )
 
@@ -3263,10 +3293,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + neoC5H12 <=> HCl + neoC5H11""",
     longDesc = 
 u"""
-Taken from entry: Cl + neoC5H12 <=> HCl + neoC5H11
+Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons 
+Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959 
+193-593 K, experimental measurement
 """,
 )
 
@@ -3281,10 +3313,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + aC3H4 <=> HCl + C3H3""",
     longDesc = 
 u"""
-Taken from entry: Cl + aC3H4 <=> HCl + C3H3
+Infrared frequency-modulation probing of Cl + C3H4 (allene, propyne) reactions: kinetics of HCl production from 292 to 850 K 
+Farrell, J.T.; Taatjes, C.A., J. Phys. Chem. A, 102, 1998, 4846-4856 
+292-850 K, experimental measurement
 """,
 )
 
@@ -3299,10 +3333,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + cC5H10 <=> HCl + cC5H9""",
     longDesc = 
 u"""
-Taken from entry: Cl + cC5H10 <=> HCl + cC5H9
+The study of chlorine atom reactions in the gas phase 
+Pritchard, H.O.; Pyke, J.B.; Trotman-Dickenson, A.F., JACS, 77, 1955 
+298-484 K, experimental measurement
 """,
 )
 
@@ -3317,10 +3353,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + cC4H8 <=> HCl + cC4H7""",
     longDesc = 
 u"""
-Taken from entry: Cl + cC4H8 <=> HCl + cC4H7
+Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons 
+Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959 
+193-593 K, experimental measurement
 """,
 )
 
@@ -3335,10 +3373,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + Dioxane14 <=> HCl + Dioxanyl14""",
     longDesc = 
 u"""
-Taken from entry: Cl + Dioxane14 <=> HCl + Dioxanyl14
+Experimental and Theoretical Investigation of the Kinetics of the Reaction of Atomic Chlorine with 1,4-Dioxane 
+Giri, B.R.; Roscoe, J.M.; Gonzalez-Garcia, N.; Olzmann, M.; Lo, J.MH.; Marriott, R.A., JPCA, 115, 2011, 5105-5111 
+292-360 K, theoretical prediction matched to experiment
 """,
 )
 
@@ -3353,10 +3393,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-1""",
     longDesc = 
 u"""
-Taken from entry: Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-1
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+313-433 K, experimental measurement
 """,
 )
 
@@ -3371,10 +3413,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-2""",
     longDesc = 
 u"""
-Taken from entry: Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-2
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+313-433 K, experimental measurement
 """,
 )
 
@@ -3389,10 +3433,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-3""",
     longDesc = 
 u"""
-Taken from entry: Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-3
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+313-433 K, experimental measurement
 """,
 )
 
@@ -3407,10 +3453,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-4""",
     longDesc = 
 u"""
-Taken from entry: Cl + C4H9OC(CH3)O <=> HCl + C4H8OC(CH3)O-4
+Free-radical substitution in aliphatic compounds. Part XIV. The halogenation of esters of butan-1-ol 
+Singh, H.; Tedder, J.M., J. Chem. Soc. B, 1966 
+313-433 K, experimental measurement
 """,
 )
 
@@ -3420,10 +3468,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(1.76e-10, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + CH3OCH3 <=> HCl + CH3OCH2""",
     longDesc = 
 u"""
-Taken from entry: Cl + CH3OCH3 <=> HCl + CH3OCH2
+Rate constants for the reaction of atomic chlorine with methanol and dimethyl ether from 200 to 500 K 
+Michael, J.V.; Nava, D.F.; Payne, W.A.; Stief, L.J., J. Chem. Phys., 70, 1979 
+200-500 K, experimental measurement
 """,
 )
 
@@ -3438,10 +3488,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + C3H6 <=> HCl + aC3H5""",
     longDesc = 
 u"""
-Taken from entry: Cl + C3H6 <=> HCl + aC3H5
+Infrared absorption probing of the Cl + C3H6 reaction: rate coefficients for HCl production between 290 and 800 K 
+Pilgrim, J.S.; Taatjes, C.A., JPCA, 101, 5776-5782, 1997 
+293-800 K, experimental measurement
 """,
 )
 
@@ -3451,10 +3503,12 @@ entry(
     degeneracy = 1.0,
     kinetics = Arrhenius(A=(2.41e-10, 'cm^3/(molecule*s)'), n=0, Ea=(0, 'J/mol'), T0=(1, 'K')),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + cC6H12 <=> HCl + cC6H11""",
     longDesc = 
 u"""
-Taken from entry: Cl + cC6H12 <=> HCl + cC6H11
+Kinetic and mechanistic studies of the reactions of cyclopentylperoxy and cyclohexylperoxy radicals with HO2 
+Rowley, D.M.; Lesclaux, R.; Lightfoot, P.D.; Noziere, B.; Wallingotn, T.J.; Hurley, M.D., JPC, 96, 1992, 4889-4894 
+248-364 K, experimental measurement
 """,
 )
 
@@ -3469,10 +3523,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + C6H5CH3 <=> HCl + C6H5CH2""",
     longDesc = 
 u"""
-Taken from entry: Cl + C6H5CH3 <=> HCl + C6H5CH2
+DFT study on the abstraction and addition of Cl atom with toluene 
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012 
+Theoretical predictions from 298-1000 K, agrees well with 298 K experiments
 """,
 )
 
@@ -3487,10 +3543,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + C6H5CH3 <=> HCl + o-C6H4CH3""",
     longDesc = 
 u"""
-Taken from entry: Cl + C6H5CH3 <=> HCl + o-C6H4CH3
+DFT study on the abstraction and addition of Cl atom with toluene 
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012 
+Theoretical predictions from 298-1000 K
 """,
 )
 
@@ -3505,10 +3563,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + C6H5CH3 <=> HCl + m-C6H4CH3""",
     longDesc = 
 u"""
-Taken from entry: Cl + C6H5CH3 <=> HCl + m-C6H4CH3
+DFT study on the abstraction and addition of Cl atom with toluene 
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012 
+Theoretical predictions from 298-1000 K
 """,
 )
 
@@ -3523,10 +3583,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + C6H5CH3 <=> HCl + p-C6H4CH3""",
     longDesc = 
 u"""
-Taken from entry: Cl + C6H5CH3 <=> HCl + p-C6H4CH3
+DFT study on the abstraction and addition of Cl atom with toluene 
+Huang, M.Q.; Wang, Z.Y.; Hao, L.Q.; Zhang, W.J., Comput. Theor. Chem., 996, 44-50, 2012 
+Theoretical predictions from 298-1000 K
 """,
 )
 
@@ -3541,10 +3603,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + iC4H10 <=> HCl + iC4H9""",
     longDesc = 
 u"""
-Taken from entry: Cl + iC4H10 <=> HCl + iC4H9
+Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons 
+Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959 
+193-593 K, experimental measurement 
 """,
 )
 
@@ -3559,10 +3623,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + iC4H10 <=> HCl + tC4H9""",
     longDesc = 
 u"""
-Taken from entry: Cl + iC4H10 <=> HCl + tC4H9
+Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons 
+Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959 
+193-593 K, experimental measurement 
 """,
 )
 
@@ -3577,10 +3643,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + cC3H6 <=> HCl + cC3H5""",
     longDesc = 
 u"""
-Taken from entry: Cl + cC3H6 <=> HCl + cC3H5
+Competitive chlorination reactions in the gas phase: hydrogen and C1-C5 saturated hydrocarbons 
+Knox, J.H.; Nelson, R.L., Trans. Faraday Soc., 55, 1959 
+193-593 K, experimental measurement
 """,
 )
 
@@ -3595,10 +3663,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + pC3H4 <=> HCl + C3H3""",
     longDesc = 
 u"""
-Taken from entry: Cl + pC3H4 <=> HCl + C3H3
+Infrared frequency-modulation probing of Cl + C3H4 (allene, propyne) reactions: kinetics of HCl production from 292 to 850 K 
+Farrell, J.T.; Taatjes, C.A., J. Phys. Chem. A, 102, 1998, 4846-4856 
+292-850 K, experimental measurement
 """,
 )
 
@@ -3613,10 +3683,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + Ethene <=> HCl + C2H3""",
     longDesc = 
 u"""
-Taken from entry: Cl + Ethene <=> HCl + C2H3
+Infrared absorption probing of the Cl + Ethene reaction: direct measurement of Arrhenius parameters for hydrogen abstraction 
+Pilgrim, J.S.; Taatjes, C.A., J. Phys. Chem. A, 101, 1997, 4172-4177 
+500-800 K, experimental measurement
 """,
 )
 
@@ -3631,10 +3703,12 @@ entry(
         T0 = (1, 'K'),
     ),
     rank = 3,
-    shortDesc = u"""Training reaction from kinetics library: Cl_H_Abstractions""",
+    shortDesc = u"""Cl + C6H6 <=> HCl + C6H5""",
     longDesc = 
 u"""
-Taken from entry: Cl + C6H6 <=> HCl + C6H5
+Studies of the kinetics and thermochemistry of the forward and reverse reaction Cl+C6H6=HCl+C6H5 
+Alecu, I.M.; Gao, Y.D.; Hsieh, P.C.; Sand, J.P.; Ors, A.; McLeod, A.; Marshall, P., JPCA, 111, 3970-3976, 2007 
+296-922 K, experimental measurement
 """,
 )
 
