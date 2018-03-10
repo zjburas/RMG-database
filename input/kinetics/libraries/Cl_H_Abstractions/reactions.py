@@ -2,7 +2,7 @@
 # encoding: utf-8
 
 name = "Cl_H_Abstractions"
-shortDesc = u”Curated from literature”
+shortDesc = u"Curated from literature"
 longDesc = u"""
 Select Hydrogen-abstraction reactions with Atomic Chlorine as the abstractor. All rates are from either IUPAC or NIST Kinetics databases.
 """
